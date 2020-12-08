@@ -110,7 +110,7 @@ final class DoubleMatrix{
                result[s++] = matrix[i][j];
             }
         }
-        //omilenoto mi sortiranje 
+    
         for(int i = 0 ; i <result.length - 1 ; i ++){
             for(int j = 0 ; j < result.length - i - 1 ; j ++){
                 if(result[j] < result[j+1]){
