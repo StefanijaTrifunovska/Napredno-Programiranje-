@@ -121,8 +121,6 @@ final class DoubleMatrix{
             }
         }
         return result;
-        //ima i pokratko reshenie so koristenje na strimovi sto go najdov na net 
-        //ama ushte ne mi e bash najjasno kako funkcionira radi toa vo vakov slucaj na ispit idi si peshkii
        // return Arrays.stream(matrix)
        //.flatMapToDouble(row->Array.stream(row))
       //.boxed()
