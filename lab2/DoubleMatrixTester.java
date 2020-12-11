@@ -110,7 +110,7 @@ final class DoubleMatrix{
                result[s++] = matrix[i][j];
             }
         }
-        //omilenoto mi sortiranje 
+    
         for(int i = 0 ; i <result.length - 1 ; i ++){
             for(int j = 0 ; j < result.length - i - 1 ; j ++){
                 if(result[j] < result[j+1]){
@@ -121,8 +121,6 @@ final class DoubleMatrix{
             }
         }
         return result;
-        //ima i pokratko reshenie so koristenje na strimovi sto go najdov na net 
-        //ama ushte ne mi e bash najjasno kako funkcionira radi toa vo vakov slucaj na ispit idi si peshkii
        // return Arrays.stream(matrix)
        //.flatMapToDouble(row->Array.stream(row))
       //.boxed()
